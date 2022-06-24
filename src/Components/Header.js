@@ -15,33 +15,52 @@ const GlobalStyle = createGlobalStyle`
 
 const Container = styled.div`
     width: 100vw;
-    height: 130vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: no-repeat center / 98% 98% url(${myHeaderImage});
+    background-origin: padding-box;
+    background-clip: padding-box;
+`;
+
+const Logo = styled.h1`
+    font-size: 3rem;
+    width: 10vw;
+    height: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    padding: 12px 25px;
 `;
 
-const HeaderBackground = styled.img`
-    width: 95vw;
-    height: 120vh;
-    object-fit: cover;
+const Menu = styled.div`
+    width: 33vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 12px 25px;
+    background-color: green;
+    opacity: 0.45;
 `;
 
-export default function Header(){
+export default function Header() {
 
-    return(
+    return (
         <>
             <GlobalStyle />
             <Container>
-                <HeaderBackground src={myHeaderImage}/>
                 <div>
-                    <p>RC</p>
+                    <Logo>RC</Logo>
                 </div>
-                <div>
+                <Menu>
                     <button>About</button>
                     <button>Recipes</button>
                     <button>Subscribe</button>
-                </div>
+                </Menu>
             </Container>
         </>
     )

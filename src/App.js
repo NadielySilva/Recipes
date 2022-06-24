@@ -8,6 +8,7 @@ import Recipes from './Components/Recipes';
 import About from './Components/About';
 import Subscribe from './Components/Subscribe';
 import Footer from './Components/Footer';
+import PrimaryBtn from './Components/Buttons/PrimaryButton';
 
 //IMPORTING ASSETS
 
@@ -30,6 +31,8 @@ export default class App extends Component{
       <>
         <GlobalStyle />
         <Header/>
+        <button>Teste</button>
+        <PrimaryBtn/>
         <Recipes/>
         <About/>
         <Subscribe/>
