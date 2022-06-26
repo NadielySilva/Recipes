@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/NadielySilva/Recipes.git/static/css/main.e6c13ad2.css",
+    "main.js": "/NadielySilva/Recipes.git/static/js/main.f0c967b6.js",
+    "static/js/787.3e22468a.chunk.js": "/NadielySilva/Recipes.git/static/js/787.3e22468a.chunk.js",
+    "static/media/Header_Image_2x.png": "/NadielySilva/Recipes.git/static/media/Header_Image_2x.827156c92ce6688c6c9c.png",
+    "static/media/Colher_Sal_Grosso@2x.png": "/NadielySilva/Recipes.git/static/media/Colher_Sal_Grosso@2x.eb47d1d1d8e65efb8096.png",
+    "static/media/Pizza@2x.png": "/NadielySilva/Recipes.git/static/media/Pizza@2x.e24bf28e41a5928adb93.png",
+    "static/media/Red_Velvet@2x.png": "/NadielySilva/Recipes.git/static/media/Red_Velvet@2x.11f37230e91077a8d849.png",
+    "static/media/Peanut_Smoothie@2x.png": "/NadielySilva/Recipes.git/static/media/Peanut_Smoothie@2x.25f1610ad46354c55559.png",
+    "static/media/Instagram_Icon.svg": "/NadielySilva/Recipes.git/static/media/Instagram_Icon.c555da1c5613466297de43992af06df4.svg",
+    "static/media/Twitter_Icon.svg": "/NadielySilva/Recipes.git/static/media/Twitter_Icon.90a2ba8d66f6910effc67431d8eefb54.svg",
+    "index.html": "/NadielySilva/Recipes.git/index.html",
+    "static/media/Pinterest_Icon.svg": "/NadielySilva/Recipes.git/static/media/Pinterest_Icon.3ca91020e565fc1f943a015c382ec4bc.svg",
+    "static/media/Facebook_Icon.svg": "/NadielySilva/Recipes.git/static/media/Facebook_Icon.f7edc4fd294f34d7d29a83724e624fcb.svg",
+    "main.e6c13ad2.css.map": "/NadielySilva/Recipes.git/static/css/main.e6c13ad2.css.map",
+    "main.f0c967b6.js.map": "/NadielySilva/Recipes.git/static/js/main.f0c967b6.js.map",
+    "787.3e22468a.chunk.js.map": "/NadielySilva/Recipes.git/static/js/787.3e22468a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.f0c967b6.js"
+  ]
+}
