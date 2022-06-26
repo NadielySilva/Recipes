@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 //import { useMediaQuery } from 'react-responsive';
 import { createGlobalStyle } from 'styled-components';
+import styled from 'styled-components';
 
 //IMPORTING COMPONENTS
 import Header from './Components/Header';
@@ -8,7 +9,6 @@ import Recipes from './Components/Recipes';
 import About from './Components/About';
 import Subscribe from './Components/Subscribe';
 import Footer from './Components/Footer';
-import PrimaryBtn from './Components/Buttons/PrimaryButton';
 
 //IMPORTING ASSETS
 
@@ -23,6 +23,13 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background: #F2F4F1 0% 0% no-repeat padding-box;
+`;
+
 export default class App extends Component{
 
 
@@ -30,13 +37,13 @@ export default class App extends Component{
     return(
       <>
         <GlobalStyle />
-        <Header/>
-        <button>Teste</button>
-        <PrimaryBtn/>
-        <Recipes/>
-        <About/>
-        <Subscribe/>
-        <Footer/>
+        <Container>
+          <Header/>
+          <Recipes/>
+          <About/>
+          <Subscribe/>
+          <Footer/>
+        </Container>
       </>
     )
   }

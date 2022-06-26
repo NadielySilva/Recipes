@@ -25,7 +25,7 @@ const Container = styled.div`
 `;
 
 const Logo = styled.h1`
-    font-size: 3rem;
+    font-size: 2rem;
     width: 10vw;
     height: 10vh;
     display: flex;
@@ -43,8 +43,30 @@ const Menu = styled.div`
     justify-content: space-evenly;
     align-items: center;
     padding: 12px 25px;
-    background-color: green;
-    opacity: 0.45;
+`;
+
+const PrimaryBtn = styled.button`
+    text-transform: uppercase;
+    width: 90px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+
+    :hover{
+        cursor:pointer;
+    }
+`;
+
+const SecondaryBtn = styled.button`
+    text-transform: uppercase;
+    width: 90px;
+    height: 30px;
+    border: 3px solid ##373737;
+    background-color: transparent;
+
+    :hover{
+        cursor:pointer;
+    }
 `;
 
 export default function Header() {
@@ -57,9 +79,9 @@ export default function Header() {
                     <Logo>RC</Logo>
                 </div>
                 <Menu>
-                    <button>About</button>
-                    <button>Recipes</button>
-                    <button>Subscribe</button>
+                    <PrimaryBtn>About</PrimaryBtn>
+                    <PrimaryBtn>Recipes</PrimaryBtn>
+                    <SecondaryBtn>Subscribe</SecondaryBtn>
                 </Menu>
             </Container>
         </>
