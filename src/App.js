@@ -42,7 +42,7 @@ export default class App extends Component{
           <Recipes/>
           <About/>
           <Subscribe/>
-          <Footer/>
+          <Footer />
         </Container>
       </>
     )
